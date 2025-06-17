@@ -94,6 +94,9 @@
   .grid-15-col{
     grid-template-columns: repeat(15, 1fr);
   }
+  .grid-10-col{
+    grid-template-columns: repeat(10, 1fr);
+  }
   .grid-align{
     align-items: start;
   }

@@ -24,8 +24,8 @@ function Nav(){
                 <h1 className='heading'>Skylite fashions</h1>
                 <div className='links flex flex-1 gap48'>
                     <Link className='link' to='/' >Home</Link>
-                    <Link className='link' to='/' >Shop</Link>
-                    <Link className='link' to='/' >Print your fellings</Link>
+                    <Link className='link' to='/shop' >Shop</Link>
+                    <Link className='link' to='/pod' >Print your fellings</Link>
                     <Link className='link' to='/' >Track</Link>
                     <Link className='link' to='/' >Latest</Link>
                 </div>

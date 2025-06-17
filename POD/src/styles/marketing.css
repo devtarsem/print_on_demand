@@ -10,6 +10,7 @@
     width: 100%;
     background-color: var(--color-white);
     z-index: 200;
+    border-bottom: 0.05rem solid var(--color-mustdo);
 }
 .middle{
     margin-top: 15vh;
@@ -214,4 +215,94 @@
     background-color: var(--color-third);
     color: var(--color-white);
     clip-path: polygon(0 0, 100% 0, 90% 50%, 100% 100% , 0 100%);
+}
+
+.comboOffers,.ourBirthdayCatalog,.tryMocksups{
+    padding: 1.6rem 9.6rem;
+}
+.comboOffers,.ourBirthdayCatalog{
+    padding-bottom: 4.8rem;
+}
+.combos{
+    width: 100%;
+    height: 40vh;
+}
+.combopic1,.combopic2{
+    width: 100%;
+    height: 100%;
+}
+.combopic1{
+    background-color: var(--color-mustdo);
+}
+.combopic2{
+    background-color: var(--color-fade);
+}
+.off_{
+    color: #000;
+    font-size: 2.4rem;
+}
+.cta_{
+    display: inline-block;
+}
+.combopic1{
+    background-image: url("/chasma.png");
+    background-position: top;
+    background-size: cover;
+}
+.mockuptru{
+    width: 100%;
+    height: 70vh;
+}
+.tshirts,.displaycot,.designsca{
+    grid-column: 1/4;
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+}
+.tshirts{
+    background-color: var(--color-mustdo);
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.displaycot{
+    background-color: var(--color-fade);
+    transform: scale(1.1);
+}
+.designsca{
+    background-color: var(--color-mustdo);
+}
+.displaycot{
+    grid-column: 4/8;
+}
+.designsca{
+    grid-column: 8/11;
+
+}
+.mockuptru{
+    margin-top: 4.8rem;
+    margin-bottom: 4.8rem;
+
+}
+.urmockups{
+    text-align: center;
+    font-size: 1.6rem;
+}
+.mockuptrp{
+    width: 100%;
+    height: 20vh;
+    background-color: #000;
+    clip-path: polygon(
+        /* Neck left → Neck right */
+        30% 0%, 70% 0%,
+        /* Right shoulder → sleeve tip */
+        85% 15%, 100% 35%,
+        /* Under right sleeve → right hem */
+        85% 35%, 85% 100%,
+        /* Hem line */
+        15% 100%,
+        /* Left hem → under left sleeve */
+        15% 35%, 0% 35%,
+        /* Left sleeve tip → left shoulder */
+        15% 15%
+      );
 }

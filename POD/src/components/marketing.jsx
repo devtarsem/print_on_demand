@@ -90,7 +90,7 @@ function Marketing(){
                     <button className="btn_">Eye wear</button>
                 </div>
                 <div className="grid grid-4-col gap24">
-                    {[1,2,3,4,5].map(el=>
+                    {[1,2,3,4,5,6,7,8].map(el=>
                         <div className="prod">
                             <div className="sticker1">
                                 <p className="ofsticker">40% off</p>
@@ -106,6 +106,65 @@ function Marketing(){
                     )}
                 </div>
             </div>
+
+            <div className="comboOffers ">
+                <div className="combos grid grid-2-col gap16">
+                    <div className="combopic1 pad16 ">
+                        <p className="off">Upto 35% off</p>
+                        <p className="off off_">Custom T-shirt + eye wears</p>
+
+                    </div>
+                    <div className="combopic2">
+
+                    </div>
+                </div>
+            </div>
+
+            <div className="ourBirthdayCatalog flex flex-dir gap16">
+                <h2 className="feaProd">Premium catagory</h2>
+                <div className="flex flex-2 gap48">
+                    <button className="btn_">Birthday special</button>
+                    <button className="btn_">Festivel special</button>
+                    <button className="btn_">Corporate special</button>
+                </div>
+                <div className="grid grid-4-col gap24">
+                    {[1,2,3,4,5,6,7,8].map(el=>
+                        <div className="prod">
+                            <div className="sticker1">
+                                <p className="ofsticker">40% off</p>
+                            </div>
+                            <img src={'/des1.png'} className="prodpic" alt="products"/>
+                            <div className="flex flex-dir gap8">
+                                <p className="catagory">Custom design</p>
+                                <h4 className="cathead">Special custom design tshirt</h4>
+                                <p className="price">799/-</p>
+                                <button className="addToCart">Add cart +</button>
+                            </div>
+                        </div>
+                    )}
+                </div>
+            </div>
+
+            <div className="tryMocksups flex flex-dir gap16">
+                <h2 className="feaProd">Try our designs</h2>
+                <div className="mockuptru grid grid-10-col gap48">
+                    <div className="tshirts pad16 flex flex-dir gap16">
+                        <h3 className="urmockups">Our Mockups</h3>
+                        <div className="grid grid-2-col gap16">
+                            {[1,2,3,4,5,6].map(el=>
+                                <div className="mockuptrp"></div>
+                            )}
+                        </div>
+                    </div>
+                    <div className="displaycot pad16">
+
+                    </div>
+                    <div className="designsca pad16">
+
+                    </div>
+                </div>
+            </div>
+
         </div>
     )
 }
